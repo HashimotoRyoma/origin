@@ -25,8 +25,8 @@ public class Main{
     }
 
     System.out.println("Heads: " +hcount+ ", Tails: " +tcount);
-    //if(hcount > tcount) System.out.println(name + " won!");
-    //else System.out.println(name + " lost!");
+    if(hcount > tcount) System.out.println(name + " won!");
+    else System.out.println(name + " lost!");
     }
     
 
